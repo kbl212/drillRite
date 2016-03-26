@@ -1,8 +1,27 @@
 .navbar-wrapper {
     background-color: #2E2E2E;
-    height: 75px;
+    height: 60px;
+    position: relative;
+    
+    .navbar-container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .navbar-container ul{
+        position: absolute;
+        top: 50%;
+        height: 50px;
+        margin-top: -12.5px;
+        display: inline;
+        width: 100%;
+    }
     li {
         color: #fff;
         display: inline;
+        margin-left: 5%;
+    }
+    a {
+        display: inline;
+        color: #fff;
     }
 }

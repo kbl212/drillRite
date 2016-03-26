@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#map {
+    height: 400px;
+    width: 600px;
+}
+#home-wrapper {
+    .jumbotron {
+        background-image: url(../../images/home-banner.jpg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+        color: #fff;
+    }
+    
+    #jumbo-slogan {
+        width: 180px;
+        float: right;
+        margin-right: 200px;
+    }
+    
+    .main-info {
+        width: 80%;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+    
+    #contact-button {
+        width: 100px;
+        border: 2px solid #fff;
+        padding: 5px;
+    }
+    
+    #contact-button:hover {
+        background-color: #fff;
+        color: #2E2E2E;
+        cursor: pointer;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    .trusted-by {
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px 0;
+    }
+}

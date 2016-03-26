@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 @import './features/aboutPage/about';
 @import './features/homePage/home';
 @import './features/navbar/navbar';
