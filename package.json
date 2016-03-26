@@ -1,0 +1,19 @@
+{
+  "name": "drill-rite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbl212/drillRite.git"
+  },
+  "author": "Kyle Lauritzen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbl212/drillRite/issues"
+  },
+  "homepage": "https://github.com/kbl212/drillRite#readme"
+}
