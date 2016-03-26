@@ -2,26 +2,25 @@
 <html ng-app="drillRite">
 
 <head>
+    <base href="/" />
     <title>DR | DrillRite</title>
     <!-- CSS Reset -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <link rel='stylesheet' href="main.scss" />
+    <!-- Compiled SCSS -->
+    <link rel='stylesheet' href="main.css" />
 </head>
 
 <body>
     <navbar></navbar>
-    <p>test</p>
-    <div class="container">
-        <p>testing again</p>
-    </div>
+    <main ng-view></main>
+        
     
     
-    
-    
-    
+    <!-- AngularJS and angular-route -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-route.js"></script>
     <!-- Local Scripts -->
     <script src="app.js"></script>
     <script src="features/navbar/navbarDirective.js"></script>

@@ -1,2 +1,6 @@
-li {
-  background-color: blue; }
+.navbar-wrapper {
+  background-color: #2E2E2E;
+  height: 75px; }
+  .navbar-wrapper li {
+    color: #fff;
+    display: inline; }
