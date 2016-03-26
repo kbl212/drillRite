@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kbl212/drillRite/issues"
   },
-  "homepage": "https://github.com/kbl212/drillRite#readme"
+  "homepage": "https://github.com/kbl212/drillRite#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4"
+  }
 }
