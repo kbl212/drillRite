@@ -18,7 +18,7 @@ html, body {
   color: #fff; }
 
 #home-wrapper #jumbo-slogan {
-  width: 180px;
+  width: 190px;
   float: right;
   margin-right: 200px; }
 
@@ -30,7 +30,7 @@ html, body {
 #home-wrapper #contact-button {
   width: 100px;
   border: 2px solid #fff;
-  padding: 5px; }
+  padding: 10px; }
 
 #home-wrapper #contact-button:hover {
   background-color: #fff;
@@ -38,7 +38,8 @@ html, body {
   cursor: pointer; }
 
 #home-wrapper li {
-  display: inline; }
+  display: inline;
+  margin: 0 10px; }
 
 #home-wrapper .trusted-by {
   margin: 0 auto;
@@ -50,7 +51,7 @@ html, body {
   height: 60px;
   position: relative; }
   .navbar-wrapper .navbar-container {
-    width: 85%;
+    width: 95%;
     margin: 0 auto; }
   .navbar-wrapper .navbar-container ul {
     position: absolute;

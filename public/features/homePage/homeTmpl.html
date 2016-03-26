@@ -11,7 +11,9 @@
     </div>
     <div class="main-info">
         <p>DrillRite is an industry leader in horizontal directional drilling and has been in the business for over 30 years offering an extensive array of services related to horizontal drilling and potholing.</p>
+        </br>
         <p>We offer a variety of directional drill sizes and have the capability of installing 1.75% to 47% steel and polyurethane pipe</p>
+        </br>
         <p>DrillRite Directional Drilling also offers offers hydrovac trucks and trailers that can be used to safely create post holes, locate utilities, and protect employees before a project starts.</p>
     </div>
     <div class="container">
@@ -32,23 +34,24 @@
         </div>
     </div>
     <script>
+        function initMap() {
+            var myLatLng = {
+                lat: 40.380370,
+                lng: -111.835317
+            };
 
-      function initMap() {
-        var myLatLng = {lat: 40.380370, lng: -111.835317};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: myLatLng
+            });
 
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: myLatLng
-        });
-
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'Hello World!'
-        });
-      }
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Hello World!'
+            });
+        }
     </script>
-        <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=**HERE**&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=**HERE**&callback=initMap">
     </script>
 </div>
