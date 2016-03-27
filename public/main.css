@@ -153,6 +153,10 @@ body {
     opacity: 0.5; }
   .navbar-wrapper img:hover {
     opacity: 0.5; }
+  .navbar-wrapper a:hover {
+    text-decoration: none; }
+  .navbar-wrapper a:focus {
+    text-decoration: none; }
 
 @media screen and (max-width: 600px) {
   .navbar-wrapper {
@@ -191,6 +195,12 @@ body {
   .myfooter-wrapper a {
     display: inline;
     color: #fff; }
+  .myfooter-wrapper li:hover {
+    opacity: 0.5; }
+  .myfooter-wrapper a:hover {
+    text-decoration: none; }
+  .myfooter-wrapper a:focus {
+    text-decoration: none; }
 
 @media screen and (max-width: 980px) {
   .myfooter-wrapper .myfooter-container ul {
@@ -205,3 +215,11 @@ body {
     .myfooter-wrapper .myfooter-container li {
       display: block;
       margin-bottom: 15px; } }
+
+.location-wrapper {
+  text-align: center; }
+  .location-wrapper p {
+    margin-top: 50px; }
+
+.contact-wrapper {
+  margin-top: 50px; }

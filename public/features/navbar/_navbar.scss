@@ -33,6 +33,12 @@
     img:hover {
         opacity: 0.5;
     }
+    a:hover {
+        text-decoration: none;
+    }
+    a:focus {
+        text-decoration: none;
+    }
 }
 
 

@@ -1,24 +1,24 @@
 .myfooter-wrapper {
     background-color: #2E2E2E;
     height: 60px;
-    position:relative;
+    position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-    
     .myfooter-container {
         width: 95%;
         position: relative;
         height: 60px;
         /*margin-left: 40%;*/
     }
-    .myfooter-container ul{
+    .myfooter-container ul {
         position: absolute;
         bottom: -25px;
         left: 70%;
         height: 50px;
         display: inline;
         width: 100%;
-        margin-bottom: 10px;;
+        margin-bottom: 10px;
+        ;
     }
     li {
         color: #fff;
@@ -28,6 +28,15 @@
     a {
         display: inline;
         color: #fff;
+    }
+    li:hover {
+        opacity: 0.5;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:focus {
+        text-decoration: none;
     }
 }
 
