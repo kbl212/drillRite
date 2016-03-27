@@ -95,7 +95,7 @@ body {
 
 @media screen and (max-width: 680px) {
   #home-wrapper .jumbotron {
-    height: 200px;
+    height: 220px;
     width: 100%; }
   #home-wrapper #jumbo-slogan {
     margin-right: -10px;
@@ -132,11 +132,12 @@ body {
   overflow-x: hidden;
   overflow-y: hidden; }
   .navbar-wrapper .navbar-container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto; }
   .navbar-wrapper .navbar-container ul {
     position: absolute;
     top: 50%;
+    left: 20%;
     height: 50px;
     margin-top: -12.5px;
     display: inline;
@@ -144,7 +145,7 @@ body {
   .navbar-wrapper li {
     color: #fff;
     display: inline;
-    margin-left: 5%; }
+    margin-left: 3%; }
   .navbar-wrapper a {
     display: inline;
     color: #fff; }
@@ -158,7 +159,8 @@ body {
     height: 220px; }
     .navbar-wrapper .navbar-container ul {
       margin-top: -100px;
-      text-align: center; }
+      text-align: center;
+      left: 0; }
     .navbar-wrapper li {
       display: block;
       margin-bottom: 15px; } }

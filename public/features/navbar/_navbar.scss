@@ -6,12 +6,13 @@
     overflow-y: hidden;
     
     .navbar-container {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
     }
     .navbar-container ul{
         position: absolute;
         top: 50%;
+        left: 20%;
         height: 50px;
         margin-top: -12.5px;
         display: inline;
@@ -20,7 +21,7 @@
     li {
         color: #fff;
         display: inline;
-        margin-left: 5%;
+        margin-left: 3%;
     }
     a {
         display: inline;
@@ -41,6 +42,7 @@
         .navbar-container ul {
             margin-top: -100px;
             text-align:center;
+            left: 0;
         }
         li {
             display:block;
