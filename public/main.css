@@ -1,14 +1,21 @@
 html, body {
   height: 100%; }
 
+.about-contain {
+  padding-top: 50px; }
+
 html, body {
   height: 100%;
   font-family: 'Verdana', sans-serif; }
 
+.page-wrapper {
+  min-height: 100%;
+  margin-bottom: -60px; }
+
 #map {
   height: 400px;
   width: 100%;
-  margin-bottom: 50px; }
+  margin-bottom: 110px; }
 
 #home-wrapper .jumbotron {
   background-image: url(../../images/home-banner.jpg);
@@ -70,6 +77,10 @@ html, body {
   .navbar-wrapper a {
     display: inline;
     color: #fff; }
+  .navbar-wrapper li:hover {
+    opacity: 0.5; }
+  .navbar-wrapper img:hover {
+    opacity: 0.5; }
 
 .myfooter-wrapper {
   background-color: #2E2E2E;
