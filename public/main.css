@@ -103,11 +103,27 @@ body {
 
 @media screen and (max-width: 600px) {
   #home-wrapper .jumbotron {
-    height: 180px;
+    height: 190px;
     width: 100%; }
   #home-wrapper #jumbo-slogan {
-    margin-right: -20px;
-    font-size: 14px; } }
+    margin-right: 10px;
+    font-size: 14px;
+    width: 150px; }
+  #home-wrapper li {
+    display: block;
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 470px) {
+  #home-wrapper #jumbo-slogan {
+    background-color: #2E2E2E;
+    height: 150px;
+    float: none;
+    margin-top: 150px;
+    width: 100%;
+    padding: 10px;
+    text-align: center; }
+  #home-wrapper .main-info {
+    margin-top: 100px; } }
 
 .navbar-wrapper {
   background-color: #2E2E2E;
@@ -161,15 +177,15 @@ body {
   .myfooter-wrapper .myfooter-container ul {
     position: absolute;
     bottom: -25px;
-    left: 50%;
+    left: 70%;
     height: 50px;
     display: inline;
     width: 100%;
-    margin-bottom: 0; }
+    margin-bottom: 10px; }
   .myfooter-wrapper li {
     color: #fff;
     display: inline;
-    margin-left: 3%; }
+    margin-left: 2%; }
   .myfooter-wrapper a {
     display: inline;
     color: #fff; }

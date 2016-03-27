@@ -138,12 +138,34 @@ p {}
 @media screen and (max-width:600px) {
     #home-wrapper {
         .jumbotron {
-            height: 180px;
+            height: 190px;
             width: 100%;
         }
         #jumbo-slogan {
-            margin-right: -20px;
+            margin-right: 10px;
             font-size: 14px;
+            width: 150px;
+        }
+        li {
+            display:block;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:470px) {
+    #home-wrapper {
+        #jumbo-slogan {
+            background-color: #2E2E2E;
+            height: 150px;
+            float:none;
+            margin-top: 150px;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+        .main-info {
+            margin-top: 100px;
         }
     }
 }
