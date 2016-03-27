@@ -3,11 +3,12 @@ html, body {
 
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Verdana', sans-serif; }
 
 #map {
   height: 400px;
-  width: 600px; }
+  width: 100%;
+  margin-bottom: 50px; }
 
 #home-wrapper .jumbotron {
   background-image: url(../../images/home-banner.jpg);
@@ -39,7 +40,7 @@ html, body {
 
 #home-wrapper li {
   display: inline;
-  margin: 0 10px; }
+  margin: 0 20px; }
 
 #home-wrapper .trusted-by {
   margin: 0 auto;
@@ -49,7 +50,9 @@ html, body {
 .navbar-wrapper {
   background-color: #2E2E2E;
   height: 60px;
-  position: relative; }
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden; }
   .navbar-wrapper .navbar-container {
     width: 95%;
     margin: 0 auto; }
@@ -65,5 +68,32 @@ html, body {
     display: inline;
     margin-left: 5%; }
   .navbar-wrapper a {
+    display: inline;
+    color: #fff; }
+
+.myfooter-wrapper {
+  background-color: #2E2E2E;
+  height: 60px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  .myfooter-wrapper .myfooter-container {
+    width: 95%;
+    position: relative;
+    height: 60px;
+    /*margin-left: 40%;*/ }
+  .myfooter-wrapper .myfooter-container ul {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    height: 50px;
+    display: inline;
+    width: 100%;
+    margin-bottom: 0; }
+  .myfooter-wrapper li {
+    color: #fff;
+    display: inline;
+    margin-left: 3%; }
+  .myfooter-wrapper a {
     display: inline;
     color: #fff; }

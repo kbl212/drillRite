@@ -18,7 +18,7 @@
     </div>
     <div class="container">
         <div class="trusted-by">
-            <h2>Trusted by...</h2>
+            <h3>Trusted by...</h3>
             <ul>
                 <li><img src="../../images/mears.png" /></li>
                 <li><img src="../../images/questar.gif" /></li>
@@ -28,30 +28,11 @@
     </div>
     <div class="main-info">
         <div class="map-location">
-            <span>Location</span>
-            </br>
-            PICTURE
+            <h3>Location</h3>
+            <div id="map"></div>
+
         </div>
     </div>
-    <script>
-        function initMap() {
-            var myLatLng = {
-                lat: 40.380370,
-                lng: -111.835317
-            };
 
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: myLatLng
-            });
 
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'Hello World!'
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=**HERE**&callback=initMap">
-    </script>
 </div>

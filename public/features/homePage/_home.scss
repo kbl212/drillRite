@@ -1,11 +1,12 @@
 html, body {
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 #map {
     height: 400px;
-    width: 600px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 #home-wrapper {
     .jumbotron {
@@ -43,7 +44,7 @@ html, body {
     
     li {
         display: inline;
-        margin: 0 10px;
+        margin: 0 20px;
     }
     
     .trusted-by {
