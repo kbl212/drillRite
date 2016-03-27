@@ -4,9 +4,11 @@ html, body {
 .about-contain {
   padding-top: 50px; }
 
-html, body {
+html,
+body {
   height: 100%;
-  font-family: 'Verdana', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px; }
 
 .page-wrapper {
   min-height: 100%;
@@ -21,14 +23,15 @@ html, body {
   background-image: url(../../images/home-banner.jpg);
   background-size: auto 100%;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 600px;
   width: 100%;
   color: #fff; }
 
 #home-wrapper #jumbo-slogan {
-  width: 190px;
+  width: 280px;
   float: right;
-  margin-right: 200px; }
+  margin-right: 350px;
+  font-size: 32px; }
 
 #home-wrapper .main-info {
   width: 80%;
@@ -53,6 +56,58 @@ html, body {
   margin: 0 auto;
   text-align: center;
   padding: 50px 0; }
+
+@media screen and (max-width: 1620px) {
+  #home-wrapper #jumbo-slogan {
+    margin-right: 150px; } }
+
+@media screen and (max-width: 1360px) {
+  #home-wrapper .jumbotron {
+    height: 450px;
+    width: 100%; }
+  #home-wrapper #jumbo-slogan {
+    margin-right: 100px; } }
+
+@media screen and (max-width: 1130px) {
+  #home-wrapper .jumbotron {
+    height: 400px;
+    width: 100%; } }
+
+@media screen and (max-width: 1060px) {
+  #home-wrapper .jumbotron {
+    height: 350px;
+    width: 100%; } }
+
+@media screen and (max-width: 960px) {
+  #home-wrapper .jumbotron {
+    height: 300px;
+    width: 100%; }
+  #home-wrapper #jumbo-slogan {
+    font-size: 24px;
+    margin-right: 25px; } }
+
+@media screen and (max-width: 780px) {
+  #home-wrapper .jumbotron {
+    height: 250px;
+    width: 100%; }
+  #home-wrapper #jumbo-slogan {
+    margin-right: 0; } }
+
+@media screen and (max-width: 680px) {
+  #home-wrapper .jumbotron {
+    height: 200px;
+    width: 100%; }
+  #home-wrapper #jumbo-slogan {
+    margin-right: -10px;
+    font-size: 18px; } }
+
+@media screen and (max-width: 600px) {
+  #home-wrapper .jumbotron {
+    height: 180px;
+    width: 100%; }
+  #home-wrapper #jumbo-slogan {
+    margin-right: -20px;
+    font-size: 14px; } }
 
 .navbar-wrapper {
   background-color: #2E2E2E;
@@ -82,6 +137,16 @@ html, body {
   .navbar-wrapper img:hover {
     opacity: 0.5; }
 
+@media screen and (max-width: 600px) {
+  .navbar-wrapper {
+    height: 220px; }
+    .navbar-wrapper .navbar-container ul {
+      margin-top: -100px;
+      text-align: center; }
+    .navbar-wrapper li {
+      display: block;
+      margin-bottom: 15px; } }
+
 .myfooter-wrapper {
   background-color: #2E2E2E;
   height: 60px;
@@ -108,3 +173,17 @@ html, body {
   .myfooter-wrapper a {
     display: inline;
     color: #fff; }
+
+@media screen and (max-width: 980px) {
+  .myfooter-wrapper .myfooter-container ul {
+    left: 5%; } }
+
+@media screen and (max-width: 600px) {
+  .myfooter-wrapper {
+    height: 220px; }
+    .myfooter-wrapper .myfooter-container ul {
+      text-align: center;
+      margin-bottom: 20px; }
+    .myfooter-wrapper .myfooter-container li {
+      display: block;
+      margin-bottom: 15px; } }

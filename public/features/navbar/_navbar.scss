@@ -33,3 +33,18 @@
         opacity: 0.5;
     }
 }
+
+
+@media screen and (max-width:600px) {
+    .navbar-wrapper {
+        height: 220px;
+        .navbar-container ul {
+            margin-top: -100px;
+            text-align:center;
+        }
+        li {
+            display:block;
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -1,7 +1,11 @@
-html, body {
+html,
+body {
     height: 100%;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
+
+p {}
 
 .page-wrapper {
     min-height: 100%;
@@ -13,48 +17,133 @@ html, body {
     width: 100%;
     margin-bottom: 110px;
 }
+
 #home-wrapper {
     .jumbotron {
         background-image: url(../../images/home-banner.jpg);
         background-size: auto 100%;
         background-repeat: no-repeat;
-        height: 300px;
+        height: 600px;
         width: 100%;
         color: #fff;
     }
-    
     #jumbo-slogan {
-        width: 190px;
+        width: 280px;
         float: right;
-        margin-right: 200px;
+        margin-right: 350px;
+        font-size: 32px;
     }
-    
     .main-info {
         width: 80%;
         padding-top: 50px;
         margin: 0 auto;
     }
-    
     #contact-button {
         width: 100px;
         border: 2px solid #fff;
         padding: 10px;
     }
-    
     #contact-button:hover {
         background-color: #fff;
         color: #2E2E2E;
         cursor: pointer;
     }
-    
     li {
         display: inline;
         margin: 0 20px;
     }
-    
     .trusted-by {
         margin: 0 auto;
         text-align: center;
         padding: 50px 0;
+    }
+}
+
+@media screen and (max-width:1620px) {
+    #home-wrapper {
+        #jumbo-slogan {
+            margin-right: 150px;
+        }
+    }
+}
+
+@media screen and (max-width:1360px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 450px;
+            width: 100%;
+        }
+        #jumbo-slogan {
+            margin-right: 100px;
+        }
+    }
+}
+
+@media screen and (max-width:1130px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 400px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:1060px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 350px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:960px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 300px;
+            width: 100%;
+        }
+        #jumbo-slogan {
+            font-size: 24px;
+            margin-right: 25px;
+        }
+    }
+}
+
+@media screen and (max-width:780px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 250px;
+            width: 100%;
+        }
+        #jumbo-slogan {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width:680px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 200px;
+            width: 100%;
+        }
+        #jumbo-slogan {
+            margin-right: -10px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    #home-wrapper {
+        .jumbotron {
+            height: 180px;
+            width: 100%;
+        }
+        #jumbo-slogan {
+            margin-right: -20px;
+            font-size: 14px;
+        }
     }
 }
