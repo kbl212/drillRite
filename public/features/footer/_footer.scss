@@ -42,10 +42,33 @@
 
 
 /*----------------------MEDIA QUERIES------------------*/
+@media screen and (max-width:1600px) {
+    .myfooter-wrapper {
+        .myfooter-container ul {
+            left: 60%;
+        }
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .myfooter-wrapper {
+        .myfooter-container ul {
+            left: 50%;
+        }
+    }
+}
 @media screen and (max-width:980px) {
     .myfooter-wrapper {
         .myfooter-container ul {
-            left: 5%;
+            left: 40%;
+        }
+    }
+}
+
+@media screen and (max-width:760px) {
+    .myfooter-wrapper {
+        .myfooter-container ul {
+            left: 25%;
         }
     }
 }
@@ -54,6 +77,7 @@
     .myfooter-wrapper {
         height: 220px;
         .myfooter-container ul {
+            left: 5%;
             text-align: center;
             margin-bottom: 20px;
         }

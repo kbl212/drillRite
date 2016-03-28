@@ -54,6 +54,10 @@ body {
   text-align: center;
   padding: 50px 0; }
 
+#home-wrapper a {
+  text-decoration: none;
+  color: #fff; }
+
 #home-wrapper a:hover {
   text-decoration: none; }
 
@@ -144,7 +148,7 @@ body {
   .navbar-wrapper .navbar-container ul {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 4%;
     height: 50px;
     margin-top: -12.5px;
     display: inline;
@@ -152,7 +156,7 @@ body {
   .navbar-wrapper li {
     color: #fff;
     display: inline;
-    margin-left: 3%; }
+    margin-left: 6%; }
   .navbar-wrapper a {
     display: inline;
     color: #fff; }
@@ -211,14 +215,27 @@ body {
     text-decoration: none; }
 
 /*----------------------MEDIA QUERIES------------------*/
+@media screen and (max-width: 1600px) {
+  .myfooter-wrapper .myfooter-container ul {
+    left: 60%; } }
+
+@media screen and (max-width: 1260px) {
+  .myfooter-wrapper .myfooter-container ul {
+    left: 50%; } }
+
 @media screen and (max-width: 980px) {
   .myfooter-wrapper .myfooter-container ul {
-    left: 5%; } }
+    left: 40%; } }
+
+@media screen and (max-width: 760px) {
+  .myfooter-wrapper .myfooter-container ul {
+    left: 25%; } }
 
 @media screen and (max-width: 600px) {
   .myfooter-wrapper {
     height: 220px; }
     .myfooter-wrapper .myfooter-container ul {
+      left: 5%;
       text-align: center;
       margin-bottom: 20px; }
     .myfooter-wrapper .myfooter-container li {
